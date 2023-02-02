@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
+
+
+Route::get('/bp', function () {
+    return view('bp.index');
+});
