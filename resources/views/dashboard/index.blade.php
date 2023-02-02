@@ -67,8 +67,29 @@
     <div class="row">
         <section class="col-lg-6 connectedSortable  ui-sortable-handle">
 
+          <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title"><i class="fas fa-chart-bar mr-1"></i> Montants</h3>
+                    <div class="card-tools">
+                        <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-tool" data-card-widget="remove">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <canvas id="montant" style="width:100%;max-width:800px"></canvas>
+                </div>
 
-            <div class="card">
+            </div>
+        </section>
+
+        <section class="col-lg-6 connectedSortable  ui-sortable-handle">
+
+
+              <div class="card">
                 <div class="card-header">
                     <h3 class="card-title"><i class="fas fa-chart-pie mr-1"></i> Opportunites</h3>
                     <div class="card-tools">
@@ -81,30 +102,7 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <canvas id="donutChart" style="width:200%;max-width:700px"></canvas>
-                </div>
-
-            </div>
-
-        </section>
-
-        <section class="col-lg-6 connectedSortable  ui-sortable-handle">
-
-
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title"><i class="fas fa-chart-bar mr-1"></i> Montants des opportuintes</h3>
-                    <div class="card-tools">
-                        <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                            <i class="fas fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-tool" data-card-widget="remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <canvas id="montant" style="width:100%;max-width:600px"></canvas>
+                    <canvas id="donutChart" style="width:200%;max-width:800px"></canvas>
                 </div>
 
             </div>
