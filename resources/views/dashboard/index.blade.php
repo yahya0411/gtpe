@@ -7,9 +7,9 @@
             <!-- small box -->
             <div class="small-box bg-info">
                 <div class="inner">
-                    <h3>{{DB::table("materiels")->count()}}</h3>
+                    <h3>250</h3>
 
-                    <p>Prospect</p>
+                    <p>CLIENTS</p>
                 </div>
                 <div class="icon">
                     <i class="ion ion-android-person"></i>
@@ -22,9 +22,9 @@
             <!-- small box -->
             <div class="small-box bg-success">
                 <div class="inner">
-                    <h3>{{DB::table("materiels")->count()}}</h3>
+                    <h3>720</h3>
 
-                    <p>Client</p>
+                    <p>TPE</p>
                 </div>
                 <div class="icon">
                     <i class="ion ion-android-contacts"></i>
@@ -37,14 +37,14 @@
             <!-- small box -->
             <div class="small-box bg-warning">
                 <div class="inner">
-                    <h3>{{DB::table("materiels")->count()}}</h3>
+                    <h3>40</h3>
 
-                    <p>Opportunite</p>
+                    <p>TPE EN PANNE</p>
                 </div>
                 <div class="icon">
                     <i class="ion ion-podium"></i>
                 </div>
-                <a href="{{url("opportuinites")}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="{{url("opportuinites")}}" class="small-box-footer">Plus info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
         <!-- ./col -->
@@ -54,12 +54,12 @@
                 <div class="inner">
                     <h3>5</h3>
 
-                    <p>Rendez Vous</p>
+                    <p>CLIENTS RESELIER</p>
                 </div>
                 <div class="icon">
                     <i class="ion ion-calendar"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="#" class="small-box-footer">Plus info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
         <!-- ./col -->
